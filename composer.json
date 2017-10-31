@@ -1,0 +1,32 @@
+{
+  "name": "enimiste/laravel-eloquent-filters",
+  "description": "Apply filters on laravel eloquent models easy",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NOUNI EL Bachir",
+      "email": "nouni.elbachir@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "5.5.*",
+    "illuminate/database": "5.5.*",
+    "illuminate/http": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Com\\NickelIT\\Filterables\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Com\\NickelIT\\Filterables\\FilterablesServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
